@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E94C774E240DBE0C00F132D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94C774D240DBE0C00F132D4 /* AppDelegate.swift */; };
+		E94C7750240DBE0C00F132D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94C774F240DBE0C00F132D4 /* SceneDelegate.swift */; };
+		E94C7755240DBE0C00F132D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94C7753240DBE0C00F132D4 /* Main.storyboard */; };
+		E94C7757240DBE1700F132D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94C7756240DBE1700F132D4 /* Assets.xcassets */; };
+		E94C775A240DBE1700F132D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94C7758240DBE1700F132D4 /* LaunchScreen.storyboard */; };
+		E94C7767240DBF1B00F132D4 /* AlarmListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94C7766240DBF1B00F132D4 /* AlarmListTableViewController.swift */; };
+		E94C7769240DC02500F132D4 /* AlarmDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94C7768240DC02500F132D4 /* AlarmDetailTableViewController.swift */; };
+		E94C776B240DC29E00F132D4 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94C776A240DC29E00F132D4 /* SwitchTableViewCell.swift */; };
+		E94C776D240DC65F00F132D4 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94C776C240DC65F00F132D4 /* Alarm.swift */; };
+		E94C776F240DC92D00F132D4 /* AlarmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94C776E240DC92D00F132D4 /* AlarmController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E94C774A240DBE0C00F132D4 /* Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94C774D240DBE0C00F132D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E94C774F240DBE0C00F132D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E94C7754240DBE0C00F132D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E94C7756240DBE1700F132D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E94C7759240DBE1700F132D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E94C775B240DBE1700F132D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94C7766240DBF1B00F132D4 /* AlarmListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListTableViewController.swift; sourceTree = "<group>"; };
+		E94C7768240DC02500F132D4 /* AlarmDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDetailTableViewController.swift; sourceTree = "<group>"; };
+		E94C776A240DC29E00F132D4 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		E94C776C240DC65F00F132D4 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		E94C776E240DC92D00F132D4 /* AlarmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E94C7747240DBE0C00F132D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E94C7741240DBE0C00F132D4 = {
+			isa = PBXGroup;
+			children = (
+				E94C774C240DBE0C00F132D4 /* Alarm */,
+				E94C774B240DBE0C00F132D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E94C774B240DBE0C00F132D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E94C774A240DBE0C00F132D4 /* Alarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E94C774C240DBE0C00F132D4 /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				E94C7753240DBE0C00F132D4 /* Main.storyboard */,
+				E94C7763240DBEE000F132D4 /* Controllers */,
+				E94C7762240DBE5E00F132D4 /* Models */,
+				E94C7761240DBE2600F132D4 /* Resources */,
+			);
+			path = Alarm;
+			sourceTree = "<group>";
+		};
+		E94C7761240DBE2600F132D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E94C775B240DBE1700F132D4 /* Info.plist */,
+				E94C7758240DBE1700F132D4 /* LaunchScreen.storyboard */,
+				E94C774F240DBE0C00F132D4 /* SceneDelegate.swift */,
+				E94C7756240DBE1700F132D4 /* Assets.xcassets */,
+				E94C774D240DBE0C00F132D4 /* AppDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E94C7762240DBE5E00F132D4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E94C776C240DC65F00F132D4 /* Alarm.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E94C7763240DBEE000F132D4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E94C7765240DBEFB00F132D4 /* Model Controllers */,
+				E94C7764240DBEED00F132D4 /* View Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E94C7764240DBEED00F132D4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E94C7766240DBF1B00F132D4 /* AlarmListTableViewController.swift */,
+				E94C7768240DC02500F132D4 /* AlarmDetailTableViewController.swift */,
+				E94C776A240DC29E00F132D4 /* SwitchTableViewCell.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E94C7765240DBEFB00F132D4 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E94C776E240DC92D00F132D4 /* AlarmController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E94C7749240DBE0C00F132D4 /* Alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94C775E240DBE1700F132D4 /* Build configuration list for PBXNativeTarget "Alarm" */;
+			buildPhases = (
+				E94C7746240DBE0C00F132D4 /* Sources */,
+				E94C7747240DBE0C00F132D4 /* Frameworks */,
+				E94C7748240DBE0C00F132D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alarm;
+			productName = Alarm;
+			productReference = E94C774A240DBE0C00F132D4 /* Alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E94C7742240DBE0C00F132D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Sean Jones";
+				TargetAttributes = {
+					E94C7749240DBE0C00F132D4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E94C7745240DBE0C00F132D4 /* Build configuration list for PBXProject "Alarm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E94C7741240DBE0C00F132D4;
+			productRefGroup = E94C774B240DBE0C00F132D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E94C7749240DBE0C00F132D4 /* Alarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E94C7748240DBE0C00F132D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94C775A240DBE1700F132D4 /* LaunchScreen.storyboard in Resources */,
+				E94C7757240DBE1700F132D4 /* Assets.xcassets in Resources */,
+				E94C7755240DBE0C00F132D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E94C7746240DBE0C00F132D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94C774E240DBE0C00F132D4 /* AppDelegate.swift in Sources */,
+				E94C7767240DBF1B00F132D4 /* AlarmListTableViewController.swift in Sources */,
+				E94C776B240DC29E00F132D4 /* SwitchTableViewCell.swift in Sources */,
+				E94C7769240DC02500F132D4 /* AlarmDetailTableViewController.swift in Sources */,
+				E94C7750240DBE0C00F132D4 /* SceneDelegate.swift in Sources */,
+				E94C776D240DC65F00F132D4 /* Alarm.swift in Sources */,
+				E94C776F240DC92D00F132D4 /* AlarmController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E94C7753240DBE0C00F132D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E94C7754240DBE0C00F132D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E94C7758240DBE1700F132D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E94C7759240DBE1700F132D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E94C775C240DBE1700F132D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E94C775D240DBE1700F132D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E94C775F240DBE1700F132D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2784TVUZS;
+				INFOPLIST_FILE = Alarm/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeanJones.Alarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E94C7760240DBE1700F132D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2784TVUZS;
+				INFOPLIST_FILE = Alarm/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeanJones.Alarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E94C7745240DBE0C00F132D4 /* Build configuration list for PBXProject "Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94C775C240DBE1700F132D4 /* Debug */,
+				E94C775D240DBE1700F132D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E94C775E240DBE1700F132D4 /* Build configuration list for PBXNativeTarget "Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94C775F240DBE1700F132D4 /* Debug */,
+				E94C7760240DBE1700F132D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E94C7742240DBE0C00F132D4 /* Project object */;
+}
